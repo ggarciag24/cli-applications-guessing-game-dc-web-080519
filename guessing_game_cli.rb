@@ -6,7 +6,7 @@ def get_input
   gets.chomp
 end
 
-def run_guessing_game(guess) 
+def run_guessing_game 
   num = rand(7)
   prompt
   input = get_input
