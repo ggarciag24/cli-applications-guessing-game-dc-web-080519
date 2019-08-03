@@ -4,7 +4,7 @@ def get_input
 end
 
 def run_guessing_game 
-  num = rand(7)
+  num = rand(1..6)
   input = get_input
   
   if input == num
