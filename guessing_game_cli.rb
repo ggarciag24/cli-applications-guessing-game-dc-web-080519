@@ -1,14 +1,10 @@
 require('pry')
-def prompt
-  puts "guess a number between 1 and 6"
-end
 def get_input
   gets.chomp
 end
 
 def run_guessing_game 
   num = rand(7)
-  prompt
   input = get_input
   
   if input == num
