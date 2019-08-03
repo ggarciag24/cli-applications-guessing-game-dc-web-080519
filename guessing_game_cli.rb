@@ -1,6 +1,6 @@
 require('pry')
 def get_input
-  gets.chomp
+  gets
 end
 
 def run_guessing_game 
